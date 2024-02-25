@@ -1,284 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles/style.css">
-   
-     <link rel="icon" href="images/epl-3.jpg" type="image/x-icon"> 
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="images/epl-3.jpg" type="image/x-icon" />
     <title>Teams Profile Hub</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar Section Starts -->
     <section>
-        <nav class="bg-violet-400  w-full z-20 top-0 start-0 ">
-            <div class="max-w-screen flex flex-wrap items-center justify-between mx-auto  p-3 lg:p-8">
-            <a href="https://www.premierleague.com/" target="_blank" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="images/epl-3.jpg" class="h-14 w-14 lg:h-24 lg:w-24 rounded-full" alt="EPL Logo">
-                <div class=" ">    <span class="self-center text-xl lg:text-5xl font-bold whitespace-nowrap text-blue-800">Teams Profile Hub</span>
-                <p class="font-semibold text-sm lg:text-2xl text-violet-800 ">English Premier League</p></div>
-            
-            </a>
-            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-               <a href="https://www.premierleague.com/broadcast-schedules" target="_blank"><button type="button" class="text-white bg-blue-800 hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-xl text-sm lg:text-lg px-4 lg:px-8 py-2 lg:py-4 text-center ">Watch Live</button></a> 
-                <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-sticky" aria-expanded="false">
-                  <span class="sr-only">Open main menu</span>
-                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                  </svg>
-              </button>
+      <nav class="bg-violet-400 w-full z-20 top-0 start-0">
+        <div
+          class="max-w-screen flex flex-wrap items-center justify-between mx-auto p-3 lg:p-8"
+        >
+          <a
+            href="https://www.premierleague.com/"
+            target="_blank"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="images/epl-3.jpg"
+              class="h-14 w-14 lg:h-24 lg:w-24 rounded-full"
+              alt="EPL Logo"
+            />
+            <div class=" ">
+              <span
+                class="self-center text-xl lg:text-5xl font-bold whitespace-nowrap text-blue-800"
+                >Teams Profile Hub</span
+              >
+              <p class="font-semibold text-sm lg:text-2xl text-violet-800">
+                English Premier League
+              </p>
             </div>
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 text-center" id="navbar-sticky">
-              <ul class="flex flex-col p-4 md:p-2 mt-4 font-bold border border-gray-100 rounded-lg text-sm lg:text-2xl md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   ">
-                <li>
-                  <a href="#home" class="block py-2 px-3 lg:px-6 lg:py-3  text-blue-700  md:bg-transparent md:p-0  hover:text-violet-700 hover:bg-slate-200 rounded-lg" >Home</a>
-                </li>
-                <li>
-                  <a href="#teams" class="block py-2 px-3 lg:px-6 lg:py-3  text-blue-700  md:bg-transparent md:p-0  hover:text-violet-700 hover:bg-slate-200 rounded-lg" >Teams Profile</a>
-                </li>
-                <li>
-                  <a href="#news" class="block py-2 px-3 lg:px-6 lg:py-3  text-blue-700  md:bg-transparent md:p-0  hover:text-violet-700 hover:bg-slate-200 rounded-lg" >News</a>
-                </li>
-                <li>
-                  <a href="#gallery" class="block py-2 px-3 lg:px-6 lg:py-3  text-blue-700  md:bg-transparent md:p-0  hover:text-violet-700 hover:bg-slate-200 rounded-lg" >Gallery</a>
-                </li>
-    
-              </ul>
-            </div>
-            </div>
-          </nav>
+          </a>
+          <div
+            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+          >
+            <a
+              href="https://www.premierleague.com/broadcast-schedules"
+              target="_blank"
+              ><button
+                type="button"
+                class="text-white bg-blue-800 hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-xl text-sm lg:text-lg px-4 lg:px-8 py-2 lg:py-4 text-center"
+              >
+                Watch Live
+              </button></a
+            >
+            <button
+              data-collapse-toggle="navbar-sticky"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+              aria-controls="navbar-sticky"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 text-center"
+            id="navbar-sticky"
+          >
+            <ul
+              class="flex flex-col p-4 md:p-2 mt-4 font-bold border border-gray-100 rounded-lg text-sm lg:text-2xl md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="#home"
+                  class="block py-2 px-3 lg:px-6 lg:py-3 text-blue-700 md:bg-transparent md:p-0 hover:text-violet-700 hover:bg-slate-200 rounded-lg"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#teams"
+                  class="block py-2 px-3 lg:px-6 lg:py-3 text-blue-700 md:bg-transparent md:p-0 hover:text-violet-700 hover:bg-slate-200 rounded-lg"
+                  >Teams Profile</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#news"
+                  class="block py-2 px-3 lg:px-6 lg:py-3 text-blue-700 md:bg-transparent md:p-0 hover:text-violet-700 hover:bg-slate-200 rounded-lg"
+                  >News</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#gallery"
+                  class="block py-2 px-3 lg:px-6 lg:py-3 text-blue-700 md:bg-transparent md:p-0 hover:text-violet-700 hover:bg-slate-200 rounded-lg"
+                  >Gallery</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </section>
     <!-- Navbar Section Ends -->
 
     <!-- Carousel Section Starts -->
     <section id="home">
-        <div class="bg-slate-950   text-center">
-            <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl  lg:py-7">English Premier League</h3>
+      <div class="bg-slate-950 text-center">
+        <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl lg:py-7">
+          English Premier League
+        </h3>
+      </div>
+
+      <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div
+          class="relative h-96 md:h-[800px] lg:h-[1150px] overflow-hidden rounded"
+        >
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="images/epl-4.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="epl img"
+            />
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="images/epl-6.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="epl img"
+            />
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="images/epl-5.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="epl"
+            />
+          </div>
         </div>
-        
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-96 md:h-[800px] lg:h-[1150px] overflow-hidden rounded">
-         <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/epl-4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="epl img">
+        <!-- Slider indicators -->
+        <div
+          class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+        >
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="true"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 3"
+            data-carousel-slide-to="2"
+          ></button>
         </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/epl-6.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="epl img">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/epl-5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="epl">
-        </div>
-    </div>
-    <!-- Slider indicators -->
-    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-      
-    </div>
-    <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+        <!-- Slider controls -->
+        <button
+          type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 1 1 5l4 4"
+              />
             </svg>
             <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 9 4-4-4-4"
+              />
             </svg>
             <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div>
-
+          </span>
+        </button>
+      </div>
     </section>
     <!-- Carousel Section Ends -->
 
     <!-- Teams Section Starts -->
 
     <section id="teams">
-        <div class="bg-slate-950 text-center">
-            <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl  lg:py-7">Teams Profile</h3>
-        </div>
-        <div id="team_container" class="grid grid-cols-1 lg:grid-cols-2 gap-1 bg-violet-400">
- 
-        </div>
+      <div class="bg-slate-950 text-center">
+        <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl lg:py-7">
+          Teams Profile
+        </h3>
+      </div>
+      <div
+        id="team_container"
+        class="grid grid-cols-1 lg:grid-cols-2 gap-1 bg-violet-400"
+      ></div>
     </section>
     <!-- Teams Section Ends -->
-    
+
     <!-- News section Starts -->
     <section id="news">
-        <div  class="bg-slate-950   text-center">
-            <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl  lg:py-7">Premier League News & Updates</h3>
-            <div  class="grid grid-cols-2 lg:grid-cols-3">
-                <div class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300">
-                    <div class="text-center">
-                        <img class="rounded-lg mx-auto w-full lg:p-2 p-1" src="images/news-2.png" alt="news img" />
-                    </div>
-                    <div class="p-5">
-                            <h5 class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900 ">Latest Premier League player injuries</h5>
-                        <p class="mb-3 text-lg font-semibold text-gray-800 ">See all the players injured for each of the 20 Premier League clubs, with key news for managers in Fantasy Premier League ahead of the next Gameweek.</p>
-                        <a href="https://www.premierleague.com/news/3777299"  target="_blank" class="inline-flex items-center px-3 lg:px-5  py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300">
-                    <div class="text-center">
-                        <img class="rounded-lg mx-auto w-full lg:p-2 p-1" src="images/news-1.png" alt="news img" />
-                    </div>
-                    <div class="p-5">
-                            <h5 class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900 ">Sarabia winner lifts Wolves up to eighth</h5>
-                        <p class="mb-3 text-lg font-semibold text-gray-800 ">Pablo Sarabia's first-half header proved the difference as Wolverhampton Wanderers earned a 1-0 win over Sheffield United at Molineux.</p>
-                        <a href="https://www.premierleague.com/news/3909061"  target="_blank" class="inline-flex items-center px-3 lg:px-5  py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300">
-                    <div class="text-center">
-                        <img class="rounded-lg mx-auto w-full lg:p-2 p-1" src="images/news-3.png" alt="news img" />
-                    </div>
-                    <div class="p-5">
-                            <h5 class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900 ">Arsenal crush Newcastle to keep pace with title rivals</h5>
-                        <p class="mb-3 text-lg font-semibold text-gray-800 ">Arsenal maintained their chase of the top two with a sixth consecutive Premier League victory as they impressively dispatched Newcastle United 4-1.</p>
-                        <a href="https://www.premierleague.com/news/3908720"  target="_blank" class="inline-flex items-center px-3 lg:px-5  py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300">
-                    <div class="text-center">
-                        <img class="rounded-lg mx-auto w-full lg:p-2 p-1" src="images/news-5.png" alt="news img" />
-                    </div>
-                    <div class="p-5">
-                            <h5 class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900 ">Liverpool beat Luton to move four points clear at the top</h5>
-                        <p class="mb-3 text-lg font-semibold text-gray-800 ">Liverpool produced a superb second-half showing to come from behind and beat Luton Town 4-1 at Anfield to extend their lead at the top of the table.</p>
-                        <a href="https://www.premierleague.com/news/3903425"  target="_blank" class="inline-flex items-center px-3 lg:px-5  py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300">
-                    <div class="text-center">
-                        <img class="rounded-lg mx-auto w-full lg:p-2 p-1" src="images/news-4.png" alt="news img" />
-                    </div>
-                    <div class="p-5">
-                            <h5 class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900 ">Who are the best FPL midfielders to get for Blank Gameweek 26?</h5>
-                        <p class="mb-3 text-lg font-semibold text-gray-800 ">The upcoming period in Fantasy Premier League offers many different tactical approaches, with only one standard, 10-match Gameweek to come across the next four rounds of fixtures.</p>
-                        <a href="https://www.premierleague.com/news/3905569"  target="_blank" class="inline-flex items-center px-3 lg:px-5  py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300">
-                    <div class="text-center">
-                        <img class="rounded-lg mx-auto w-full lg:p-2 p-1" src="images/news-6.png" alt="news img" />
-                    </div>
-                    <div class="p-5">
-                            <h5 class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900 ">How far is Hojlund from the record scoring streak?</h5>
-                        <p class="mb-3 text-lg font-semibold text-gray-800 ">Rasmus Hojlund's scoring streak is fast becoming one of the best in Premier League history. Hojlund scored in a sixth consecutive match at the weekend, becoming only the fourth player to do so for Manchester United .</p>
-                        <a href="https://www.premierleague.com/news/3905354"  target="_blank" class="inline-flex items-center px-3 lg:px-5  py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Read more
-                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                
+      <div class="bg-slate-950 text-center">
+        <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl lg:py-7">
+          Premier League News & Updates
+        </h3>
+        <div class="grid grid-cols-2 lg:grid-cols-3">
+          <div
+            class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300"
+          >
+            <div class="text-center">
+              <img
+                class="rounded-lg mx-auto w-full lg:p-2 p-1"
+                src="images/news-2.png"
+                alt="news img"
+              />
             </div>
+            <div class="p-5">
+              <h5
+                class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900"
+              >
+                Latest Premier League player injuries
+              </h5>
+              <p class="mb-3 text-lg font-semibold text-gray-800">
+                See all the players injured for each of the 20 Premier League
+                clubs, with key news for managers in Fantasy Premier League
+                ahead of the next Gameweek.
+              </p>
+              <a
+                href="https://www.premierleague.com/news/3777299"
+                target="_blank"
+                class="inline-flex items-center px-3 lg:px-5 py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300"
+          >
+            <div class="text-center">
+              <img
+                class="rounded-lg mx-auto w-full lg:p-2 p-1"
+                src="images/news-1.png"
+                alt="news img"
+              />
+            </div>
+            <div class="p-5">
+              <h5
+                class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900"
+              >
+                Sarabia winner lifts Wolves up to eighth
+              </h5>
+              <p class="mb-3 text-lg font-semibold text-gray-800">
+                Pablo Sarabia's first-half header proved the difference as
+                Wolverhampton Wanderers earned a 1-0 win over Sheffield United
+                at Molineux.
+              </p>
+              <a
+                href="https://www.premierleague.com/news/3909061"
+                target="_blank"
+                class="inline-flex items-center px-3 lg:px-5 py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300"
+          >
+            <div class="text-center">
+              <img
+                class="rounded-lg mx-auto w-full lg:p-2 p-1"
+                src="images/news-3.png"
+                alt="news img"
+              />
+            </div>
+            <div class="p-5">
+              <h5
+                class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900"
+              >
+                Arsenal crush Newcastle to keep pace with title rivals
+              </h5>
+              <p class="mb-3 text-lg font-semibold text-gray-800">
+                Arsenal maintained their chase of the top two with a sixth
+                consecutive Premier League victory as they impressively
+                dispatched Newcastle United 4-1.
+              </p>
+              <a
+                href="https://www.premierleague.com/news/3908720"
+                target="_blank"
+                class="inline-flex items-center px-3 lg:px-5 py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300"
+          >
+            <div class="text-center">
+              <img
+                class="rounded-lg mx-auto w-full lg:p-2 p-1"
+                src="images/news-5.png"
+                alt="news img"
+              />
+            </div>
+            <div class="p-5">
+              <h5
+                class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900"
+              >
+                Liverpool beat Luton to move four points clear at the top
+              </h5>
+              <p class="mb-3 text-lg font-semibold text-gray-800">
+                Liverpool produced a superb second-half showing to come from
+                behind and beat Luton Town 4-1 at Anfield to extend their lead
+                at the top of the table.
+              </p>
+              <a
+                href="https://www.premierleague.com/news/3903425"
+                target="_blank"
+                class="inline-flex items-center px-3 lg:px-5 py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300"
+          >
+            <div class="text-center">
+              <img
+                class="rounded-lg mx-auto w-full lg:p-2 p-1"
+                src="images/news-4.png"
+                alt="news img"
+              />
+            </div>
+            <div class="p-5">
+              <h5
+                class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900"
+              >
+                Who are the best FPL midfielders to get for Blank Gameweek 26?
+              </h5>
+              <p class="mb-3 text-lg font-semibold text-gray-800">
+                The upcoming period in Fantasy Premier League offers many
+                different tactical approaches, with only one standard, 10-match
+                Gameweek to come across the next four rounds of fixtures.
+              </p>
+              <a
+                href="https://www.premierleague.com/news/3905569"
+                target="_blank"
+                class="inline-flex items-center px-3 lg:px-5 py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-full bg-violet-200 border border-gray-200 rounded-lg shadow hover:bg-violet-300"
+          >
+            <div class="text-center">
+              <img
+                class="rounded-lg mx-auto w-full lg:p-2 p-1"
+                src="images/news-6.png"
+                alt="news img"
+              />
+            </div>
+            <div class="p-5">
+              <h5
+                class="mb-2 text-xl lg:text-3xl font-bold tracking-tight text-gray-900"
+              >
+                How far is Hojlund from the record scoring streak?
+              </h5>
+              <p class="mb-3 text-lg font-semibold text-gray-800">
+                Rasmus Hojlund's scoring streak is fast becoming one of the best
+                in Premier League history. Hojlund scored in a sixth consecutive
+                match at the weekend, becoming only the fourth player to do so
+                for Manchester United .
+              </p>
+              <a
+                href="https://www.premierleague.com/news/3905354"
+                target="_blank"
+                class="inline-flex items-center px-3 lg:px-5 py-2 lg:py-4 text-sm lg:text-lg font-bold text-center text-white bg-blue-800 rounded-lg hover:bg-blue-950 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Read more
+                <svg
+                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- News section Ends -->
-    
+
     <!-- Gallery Section Starts -->
     <section id="gallery">
-        <div  class="bg-slate-950   text-center">
-            <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl  lg:py-7">Premier League Gallery</h3>
+      <div class="bg-slate-950 text-center">
+        <h3 class="font-bold text-violet-800 text-xl py-2 lg:text-7xl lg:py-7">
+          Premier League Gallery
+        </h3>
 
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-2">
-                <div class="w-full h-40 lg:h-80">
-                    <img class="object-cover w-full h-full" src="images/epl-2.jpg" alt="epl img">
-                </div>
-                <div class="w-full h-40 lg:h-80">
-                    <img class="object-cover w-full h-full" src="images/epl-9.jpg" alt="epl img">
-                </div>
-                <div class="w-full h-40 lg:h-80">
-                    <img class="object-cover w-full h-full" src="images/epl-7.jpg" alt="epl img">
-                </div>
-                <div class="w-full h-40 lg:h-80">
-                    <img class="object-cover w-full h-full" src="images/gallery-2.png" alt="epl img">
-            
-            </div>
-            </div>
-            <div class="grid grid-cols-2 lg:grid-cols-3 gap-2">
-                <div class="w-full col-span-2 lg:col-span-1 h-72 lg:h-96">
-                    <img class="object-cover w-full h-full" src="images/gallery-7.png" alt="epl img">
-                </div>
-                <div class="w-full h-40 lg:h-96">
-                    <img class="object-cover w-full h-full" src="images/gallery-1.png" alt="epl img">
-                </div>
-                <div class="w-full h-40 lg:h-96">
-                    <img class="object-cover w-full h-full" src="images/cover-1.jpg" alt="epl img">
-                </div>
-            </div>
-            <div class="grid grid-cols-2 lg:grid-cols-5 gap-2">
-                <div class="w-full h-40 lg:h-80">
-                    <img class="object-cover w-full h-full" src="images/gallery-4.png" alt="epl img">
-                </div>
-                <div class="w-full h-40 lg:h-80">
-                    <img class="object-cover w-full h-full" src="images/gallery-8.png" alt="epl img">
-                </div>
-                
-                <div class="w-full h-auto lg:h-80 col-span-2 lg:col-span-1 ">
-                    <img class="object-cover w-full h-full" src="images/epl-5.jpg" alt="epl img">
-            </div>
-            <div class="w-full h-40 lg:h-80">
-                <img class="object-cover w-full h-full" src="images/gallery-5.png" alt="epl img">
-            </div>
-            <div class="w-full h-40 lg:h-80">
-                <img class="object-cover w-full h-full" src="images/gallery-6.png" alt="epl img">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-2">
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/epl-2.jpg"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/epl-9.jpg"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/epl-7.jpg"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-2.png"
+              alt="epl img"
+            />
+          </div>
         </div>
-            </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
-                <div class="w-full h-80 lg:h-auto">
-                    <img class="object-cover w-full h-full" src="images/gallery-9.png" alt="epl img">
-                </div>
-                <div class="w-full h-80 lg:h-auto">
-                    <img class="object-cover w-full h-full" src="images/gallery-10.png" alt="epl img">
-                </div>
-                </div>
-           </div>
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2">
+          <div class="w-full col-span-2 lg:col-span-1 h-72 lg:h-96">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-7.png"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-96">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-1.png"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-96">
+            <img
+              class="object-cover w-full h-full"
+              src="images/cover-1.jpg"
+              alt="epl img"
+            />
+          </div>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-5 gap-2">
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-4.png"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-8.png"
+              alt="epl img"
+            />
+          </div>
+
+          <div class="w-full h-auto lg:h-80 col-span-2 lg:col-span-1">
+            <img
+              class="object-cover w-full h-full"
+              src="images/epl-5.jpg"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-5.png"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-40 lg:h-80">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-6.png"
+              alt="epl img"
+            />
+          </div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+          <div class="w-full h-80 lg:h-auto">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-9.png"
+              alt="epl img"
+            />
+          </div>
+          <div class="w-full h-80 lg:h-auto">
+            <img
+              class="object-cover w-full h-full"
+              src="images/gallery-10.png"
+              alt="epl img"
+            />
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Gallery Section Ends -->
 
-
     <script src="js/data.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-</body>
+  </body>
 </html>
