@@ -1,5 +1,5 @@
 
-Teams Profile Hub
+# Teams Profile Hub
 
 Welcome to Teams Profile Hub, your one-stop destination for English Premier League (EPL) team details. This static website provides comprehensive information about all the EPL teams, including their profiles, jerseys, logos, and banners.
 
