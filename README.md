@@ -1,9 +1,9 @@
 
 # Teams Profile Hub
 
-Welcome to Teams Profile Hub, your one-stop destination for English Premier League (EPL) team details. This static website provides comprehensive information about all the EPL teams, including their profiles, jerseys, logos, and banners.
+## Welcome to Teams Profile Hub, your one-stop destination for English Premier League (EPL) team details. This static website provides comprehensive information about all the EPL teams, including their profiles, jerseys, logos, and banners.
 
-Features:
+### Features:
 
 i. Team Profiles: Explore detailed profiles of all English Premier League teams.
 
@@ -15,7 +15,7 @@ iv. Visit Official Website: Direct access to the official English Premier League
 
 v. Watch Live: Get directed to live streaming platforms for watching EPL matches online when available.
 
-Usage:
+### Usage:
 
 1. Simply navigate to the Teams Profile Hub website.
    
